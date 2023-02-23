@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="(min-width:1300px)" href="projecto_css_pc.css" >
-    <link rel="stylesheet" type="text/css" media="(min-width:1024px"  href="projecto_css_tablet.css">
-    
+    <link rel="stylesheet" type="text/css" media="(min-width:1366px)" href="projecto_css_pc.css" >
+    <link rel="stylesheet" type="text/css" media="(max-width:1365px)"  href="projecto_css_tablet.css">
+    <link rel="stylesheet" type="text/css" media="(max-width:767px)" href="projecto_css_celular.css">
     
     <!--
         Fuentes
@@ -24,7 +24,13 @@
         <section id="cuerpoizquierda">
          <p id="arribadeimagen">Julio Vargas</p>
         <h1 id="arribadeimagen">Administrativo contable</h1>
-        <img src="recursos/curriculumfoto 250x375.png" alt="fotocurriculum" >
+        <!--imagenes por pixeles-->
+        <img srcset="recursos/curriculumfoto250x375.png  250px,
+                    recursos/curriculumfoto150x225.png  150px"
+                    sizes="(max-width:1024px) 250px,
+                           (max-width:1023px) 150px"
+                    src="recursos/curriculumfoto250x375.png" alt="foto curriculum">
+        <!--fin de imagenes por pixeles-->
         <h2>Informacion Personal</h2>
          <p>E-mail: julio.vargas451@gmail.com</p>
          <p>Teléfono: (889) 954-7791</p>
