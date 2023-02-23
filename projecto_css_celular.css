@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+h2{
+    background-color: #00263f;
+}
+h3{
+    background-color: grey;
+}
+body{
+     height: 1870px;
+}
+img{
+    width: 230px;
+    display: none;
+}
+
+#cuerpoizquierda{
+                 background-color: #074975;
+                 height: 655px;
+                 width: 100%;
+                 float: left;
+                 padding-top: 10px;
+                 padding-right: 15px;
+                 padding-bottom: 10px;
+                 padding-left: 15px;
+
+                 font-family: 'Roboto';
+                 font-size: 16px;
+                 letter-spacing: 0px;
+                 word-spacing: 0px;
+                 color: #FFFFFF;
+                 font-weight: 400;
+                 text-decoration: none solid rgb(68, 68, 68);
+                 text-indent:3px;
+}
+
+#cuerpoprincipal{
+                background-color: beige;
+                 float:left;
+                 height: 1950px;
+                 width: 100%;
+                 border: 2px solid black;
+                 padding-top:10px;
+                 padding-right: 5px;
+                 padding-bottom: 5px;
+                 padding-left: 5px;
+                 
+
+                 
+                 font-family: "Arial Black", Gadget, sans-serif;
+                 font-size: 14px;
+                 letter-spacing: 0px;
+                 word-spacing: 0px;
+                 color: black;
+                 font-weight: 400;
+                 text-decoration: none solid rgb(68, 68, 68);
+                 text-indent: 3px;
+
+
+                 
+
+}
+
+
+
