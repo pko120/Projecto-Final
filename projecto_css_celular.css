@@ -13,13 +13,12 @@ body{
      height: 1870px;
 }
 img{
-    width: 230px;
     display: none;
 }
 
 #cuerpoizquierda{
                  background-color: #074975;
-                 height: 655px;
+                 height: auto;
                  width: 100%;
                  float: left;
                  padding-top: 10px;
@@ -40,7 +39,7 @@ img{
 #cuerpoprincipal{
                 background-color: beige;
                  float:left;
-                 height: 1950px;
+                 height: auto;
                  width: 100%;
                  border: 2px solid black;
                  padding-top:10px;
