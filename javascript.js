@@ -1,8 +1,7 @@
+/*
+document.addEventListener('click' , function(){
+    console.log("Hola mundo");
+    document.getElementById("detalles").innerHTML ="Click aqui para cerrar";
+});
+*/
 
-details.addEventListener("toggle", (event) => {
-    if (details.open) {
-      /* the element was toggled open */
-    } else {
-      /* the element was toggled closed */
-    }
-  });

@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    
 }
 
 h2{
@@ -11,7 +10,17 @@ h3{
     background-color: grey;
 }
 body{
-     height: 1120px;
+     height: auto;
+     background-color: black;
+}
+    
+#detalles{
+        background-color: chocolate;
+        box-shadow: 3px 3px 4px black;
+        cursor: pointer;
+        list-style-position: inside;
+        font-size: 24px;
+        font-weight: bold;
 }
 
 #cuerpoizquierda{
